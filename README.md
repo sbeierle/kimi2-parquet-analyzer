@@ -135,3 +135,18 @@ _It must not be used to scrape, manipulate, or violate the terms of service of a
 _Respect data privacy, user agreements, and platform policies._
 
 ---
+
+## 🧩 Model Source
+This project evaluates the public inference instance of Kimi-K2-Instruct (Kimi2), as referenced by Hugging Face researcher Daniel Vila Suero:
+
+▶️ Hugging Face Space: [https://huggingface.co/spaces/aisheets/sheets](https://huggingface.co/spaces/aisheets/sheets)  
+🧠 Model: [moonshotai/Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-K2-Instruct)  
+📊 Dataset used: [dvilasuero/jackhhao_jailbreak_classification_kimi](https://huggingface.co/datasets/dvilasuero/jackhhao_jailbreak_classification_kimi)
+
+Note: While the inference backend is not explicitly stated in the AISheets UI, all response behavior and identity prompts confirm the active model as `Kimi`.
+
+<p align="center">
+  <img src="./screenshots/model_identity_check.png" alt="Kimi identity prompt" width="600"/>
+</p>
+
+
