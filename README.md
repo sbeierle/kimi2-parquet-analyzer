@@ -149,10 +149,27 @@ This project evaluates the public inference instance of **Kimi-K2-Instruct (Kimi
 > Note: While the inference backend is not explicitly stated in the AISheets UI, all response behavior and identity prompts confirm the active model as `Kimi`.
 
 <p align="center">
-  <img src="results/screenshots/model_identity_check.png" alt="Model identity check: Kimi" width="600"/>
+  <img src="./screenshots/model_identity_check.png" alt="Model identity check: Kimi" width="600"/>
 </p>
 
 *Fig.1: Identity-check prompts confirming that the backend model in the GUI is consistently Kimi2.*
 
+---
 
+### 🤔 Additional confirmation from the Kimi production system:
 
+According to a direct response from the official Kimi.com interface:
+
+- The backend of `aisheets/sheets` is explicitly identified as `moonshotai/Kimi-K2-Instruct (Kimi2)`.
+- The version running on [kimi.com](https://kimi.com) is a newer, internal generation maintained by Moonshot AI.
+- Both models originate from the same company, but differ in architecture, training data, knowledge cutoff and post-processing pipeline.
+
+> “aisheets/sheets 的后端就是 moonshotai/Kimi-K2-Instruct (Kimi2)。”  
+> “你现在在官方对话窗口用的是 Moonshot AI 内部更新的 Kimi 版本。”
+
+<p align="center">
+  <img src="results/screenshots/kimi2_ai_sheets_kimicom.png" alt="Kimi2 vs kimi.com confirmation screenshot" width="700"/>
+ <img src="results/screenshots/kimi2_identifiziert_sich_auf_hugginface_selbst.png" alt="Kimi identifiziert sich selbst als instruct version" width="700"/>
+</p>
+
+*Fig.2: Visual confirmation from Kimi's internal prompt analysis.*
