@@ -1,0 +1,9 @@
+gradio==4.26.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+playwright>=1.42.0
+
+
+beautifulsoup4  # for parsing HTML
